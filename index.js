@@ -72,7 +72,7 @@ async function deploy() {
         maxLength: "0",
     });
 
-    console.log(chalk.blue.bold("=== Telegram Channel : NT Exhaust (@NTExhaust) ===", "\x1b[36m"));
+    console.log(chalk.blue.bold("=== Telegram Channel : SUBFINDER  ===", "\x1b[36m"));
 
     // Ask user for number of deployments
     const numDeployments = parseInt(readlineSync.question("Enter number of deployments: "), 10);
