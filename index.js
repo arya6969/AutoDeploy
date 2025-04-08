@@ -61,7 +61,7 @@ function compileContract() {
 }
 
 async function deploy() {
-    cfonts.say("NT Exhaust", {
+    cfonts.say("SUBFINDER", {
         font: "block",
         align: "center",
         colors: ["cyan", "magenta"],
@@ -72,7 +72,7 @@ async function deploy() {
         maxLength: "0",
     });
 
-    console.log(chalk.blue.bold("=== Telegram Channel : SUBFINDER  ===", "\x1b[36m"));
+    console.log(chalk.blue.bold("=== Telegram Channel : Nancy0602  ===", "\x1b[36m"));
 
     // Ask user for number of deployments
     const numDeployments = parseInt(readlineSync.question("Enter number of deployments: "), 10);
